@@ -1,0 +1,17 @@
+'parameters':
+  'chunker':
+    'p_size' : 10
+    'order' : 4
+  'clustering':
+    'n_neighbors' : 10
+    'n_components' : 32
+    'random_state' : 1
+    'min_cluster_size' : 3
+    'umap_metric' : 'cosine'
+    'cluster_metric': 'euclidean'
+    'cluster_selection_method' : 'eom'
+  'selector':
+    'min_candidate_length' : 50
+
+
+
